@@ -1,0 +1,94 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background: url(background.jpg);
+    background-image: no-repeat;
+ 
+}
+.container{
+    width:auto;
+    height: auto;
+}
+.in h1{
+text-align: center;
+font-size: 45px;
+font-family: tahoma;
+color: white;
+padding-bottom:0px;
+}
+.inone {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    color:white;
+    border-radius: 50px;
+
+}
+.in{
+    border:5px white solid;
+    border-radius: 20px;
+    backdrop-filter:blur(15px) ;
+    height: auto;
+}
+p{
+    text-align: center;
+}
+.three {
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+.inone input{
+    border: 3px white solid;
+    border-radius: 40px;
+    background-color: transparent;
+    padding:0px 10px 0px 10px;
+    color:white;
+    height: 25px;
+    width: 220px;
+}
+.intwo{
+    color:white;
+}
+.intwo a{
+color:yellow;
+}
+.inone button{
+    border:5px red solid;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    width: 50%;
+    color:black ;
+    font-style: solid;
+    font-size: 18px;
+}
+.inone label{
+   display: block;
+   margin: 0px 20px 5px 25px;
+   text-align: left;
+   font: bold;
+
+}
+.scroll marquee{
+    color: white;
+}
+.three a{
+    margin-right: 20px;
+    padding-left: 30px;
+    text-decoration: none;
+    color:yellow;
+}
+.three input{
+    margin-left: 20px;
+}
+a:hover{
+    color:orange
+}
+button:hover{
+    border-color:blue ;
+}
+
